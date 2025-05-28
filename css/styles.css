@@ -460,11 +460,14 @@ footer .social-list-icons-item-link:focus {
   min-width: 165px;
   height: 40px;
   background-color: #4d5ae5;
-
   font-weight: 500;
-
   line-height: 1.5;
   letter-spacing: 0.04em;
   text-align: center;
   color: #fff;
+  display: flex;
+  align-items: center;
+}
+.button-icon {
+  margin-left: 16px;
 }
