@@ -499,11 +499,23 @@
     </footer>
     <div class="modal-overlay">
       <div class="modal-window">
-        <button class="close-modal-window-button" type="button">
-          <svg width="8" height="8">
-            <use href="./images/icons.svg#icon-close-cross"></use>
-          </svg>
-        </button>
+        <div class="input-section-wrapper">
+          <button class="close-modal-window-button" type="button">
+            <svg width="8" height="8" class="close-modal-window-icon">
+              <use href="./images/icons.svg#icon-close-cross"></use>
+            </svg>
+          </button>
+
+          <p class="modal-window-text">
+            Leave your contacts and we will call you back
+          </p>
+          <div class="input-wrapper">
+            <form>
+              <label class="input-lable" for="User-name">Name</label
+              ><input type="text" id="User-name" name="User_name" />
+            </form>
+          </div>
+        </div>
       </div>
     </div>
   </body>
