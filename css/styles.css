@@ -440,7 +440,7 @@ footer .social-list-icons-item-link:focus {
   width: 264px;
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background-color: #2e2f42;
+  background-color: transparent;
   outline: transparent;
 }
 .footer-input::placeholder {
