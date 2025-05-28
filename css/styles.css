@@ -442,12 +442,12 @@ footer .social-list-icons-item-link:focus {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: transparent;
   outline: transparent;
-}
-.footer-input::placeholder {
-  font-weight: 400;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
+  color: #fff;
+}
+.footer-input::placeholder {
   color: #fff;
 }
 .footer-button {
@@ -463,6 +463,7 @@ footer .social-list-icons-item-link:focus {
   text-align: center;
   color: #fff;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 .button-icon {
