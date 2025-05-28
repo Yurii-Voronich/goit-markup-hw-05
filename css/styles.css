@@ -629,6 +629,7 @@ footer .social-list-icons-item-link:focus {
   height: 16px;
   fill: transparent;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-right: 8px;
 }
@@ -643,11 +644,7 @@ footer .social-list-icons-item-link:focus {
   color: #4d5ae5;
   text-decoration: underline;
 }
-.button-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 .submit-modal-button {
   border-radius: 4px;
   padding: 16px 32px;
@@ -662,6 +659,9 @@ footer .social-list-icons-item-link:focus {
   text-align: center;
   color: #fff;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
 }
 
 .submit-modal-button:hover,
